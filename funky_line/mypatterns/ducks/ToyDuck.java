@@ -14,6 +14,6 @@ public class ToyDuck extends ADuck {
     }
 
     public ToyDuck() {
-        flyBehavior = new FlyWithEngine();
+        IFlyBehavior = new FlyWithEngine();
     }
 }

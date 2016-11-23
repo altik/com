@@ -13,6 +13,6 @@ public class RedHeadDuck extends ADuck {
     }
 
     public RedHeadDuck() {
-        flyBehavior = new FlyWithWings();
+        IFlyBehavior = new FlyWithWings();
     }
 }

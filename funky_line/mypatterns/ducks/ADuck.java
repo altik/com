@@ -1,13 +1,13 @@
 package com.funky_line.mypatterns.ducks;
 
-import com.funky_line.mypatterns.logic.implement.FlyBehavior;
+import com.funky_line.mypatterns.logic.implement.IFlyBehavior;
 
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.
  */
 public abstract class ADuck {
 
-    FlyBehavior flyBehavior;
+    IFlyBehavior IFlyBehavior;
 
     ADuck() {
 
@@ -16,11 +16,11 @@ public abstract class ADuck {
     public abstract void display();
 
     public void useFlyAbility() {
-        flyBehavior.fly();
+        IFlyBehavior.fly();
     }
 
-    public void setFlyBehavior(FlyBehavior flyBehavior) {
-        this.flyBehavior = flyBehavior;
+    public void setIFlyBehavior(IFlyBehavior IFlyBehavior) {
+        this.IFlyBehavior = IFlyBehavior;
     }
 
     public void move() {

@@ -3,7 +3,7 @@ package com.funky_line.mypatterns.logic.implement;
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.
  */
-public class FlyWithEngine implements FlyBehavior {
+public class FlyWithEngine implements IFlyBehavior {
 
     @Override
     public void fly() {
