@@ -1,6 +1,6 @@
-package com.funky_line.mypatterns.ducks;
+package com.funky.line.mypatterns.ducks;
 
-import com.funky_line.mypatterns.logic.implement.CantIFly;
+import com.funky.line.mypatterns.logic.implement.CantFly;
 
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.
@@ -13,6 +13,6 @@ public class WoodDuck extends ADuck {
     }
 
     public WoodDuck() {
-        IFlyBehavior = new CantIFly();
+        setIFly(new CantFly());
     }
 }

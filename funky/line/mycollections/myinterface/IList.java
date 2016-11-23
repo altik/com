@@ -1,4 +1,4 @@
-package com.funky_line.mycollections.myinterface;
+package com.funky.line.mycollections.myinterface;
 
 /**
  * Created by Rudniev Oleksandr on 22.11.2016.

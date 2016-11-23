@@ -1,6 +1,6 @@
-package com.funky_line.mycollections.main;
+package com.funky.line.mycollections.main;
 
-import com.funky_line.mycollections.realisation.LinkList;
+import com.funky.line.mycollections.realisation.LinkList;
 
 /**
  * Created by Rudniev Oleksandr on 10.11.2016.

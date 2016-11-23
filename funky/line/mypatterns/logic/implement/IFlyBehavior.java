@@ -1,4 +1,4 @@
-package com.funky_line.mypatterns.logic.implement;
+package com.funky.line.mypatterns.logic.implement;
 
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.
@@ -6,5 +6,4 @@ package com.funky_line.mypatterns.logic.implement;
 public interface IFlyBehavior {
 
     void fly();
-
 }

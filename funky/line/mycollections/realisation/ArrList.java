@@ -1,6 +1,7 @@
-package com.funky_line.mycollections.realisation;
+package com.funky.line.mycollections.realisation;
 
-import com.funky_line.mycollections.myinterface.IList;
+import com.funky.line.mycollections.myinterface.IList;
+
 /**
  * Created by Rudniev Oleksandr on 10.11.2016.
  */
