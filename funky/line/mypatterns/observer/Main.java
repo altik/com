@@ -44,10 +44,6 @@ public class Main {
         System.out.println(observer3.hashCode());
         System.out.println(observer1.equals(observer1));
         System.out.println();
-        System.out.println(subject.getState(observer2));
-
-
-
 
     }
 }

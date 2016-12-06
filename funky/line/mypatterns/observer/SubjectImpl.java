@@ -39,6 +39,7 @@ public class SubjectImpl implements ISubject {
         }
 
     }
+
     public String toString() {
         return "SubjectImpl{" +
                 "state=" + state +

@@ -23,7 +23,7 @@ public class ObserverImpl implements IObserver {
         this.subject.register(this);
     }
 
-    public boolean equals (Object o) {
+    public boolean equals(Object o) {
         if (this == o)
             return true;
         if (!(o instanceof ObserverImpl))
