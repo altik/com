@@ -1,6 +1,6 @@
-package com.funky.line.mypatterns.ducks;
+package com.funky.line.mypatterns.strategy.ducks;
 
-import com.funky.line.mypatterns.logic.implement.IFlyBehavior;
+import com.funky.line.mypatterns.strategy.implement.IFlyBehavior;
 
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.

@@ -1,9 +1,9 @@
-package com.funky.line.mypatterns.simul;
+package com.funky.line.mypatterns.strategy.simul;
 
-import com.funky.line.mypatterns.ducks.ADuck;
-import com.funky.line.mypatterns.ducks.RedHeadDuck;
-import com.funky.line.mypatterns.ducks.ToyDuck;
-import com.funky.line.mypatterns.ducks.WoodDuck;
+import com.funky.line.mypatterns.strategy.ducks.ADuck;
+import com.funky.line.mypatterns.strategy.ducks.RedHeadDuck;
+import com.funky.line.mypatterns.strategy.ducks.ToyDuck;
+import com.funky.line.mypatterns.strategy.ducks.WoodDuck;
 
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.

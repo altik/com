@@ -1,13 +1,13 @@
 package com.funky.line.mycollections.main;
 
-import com.funky.line.mycollections.realisation.LinkList;
+import com.funky.line.mycollections.realisation.*;
 
 /**
  * Created by Rudniev Oleksandr on 10.11.2016.
  */
 public class TestmyArr {
     public static void main(String[] args) {
-        LinkList<String> test = new LinkList<>();
+        ArrList<String> test = new ArrList<>();
         test.add("Ноль");
         test.add(1, "Один");
         System.out.println(test.size());

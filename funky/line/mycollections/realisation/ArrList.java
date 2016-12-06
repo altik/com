@@ -5,7 +5,7 @@ import com.funky.line.mycollections.myinterface.IList;
 /**
  * Created by Rudniev Oleksandr on 10.11.2016.
  */
-class ArrList<T> implements IList<T> {
+public class ArrList<T> implements IList<T> {
 
     /**
      * Array for containing myArr
@@ -21,7 +21,7 @@ class ArrList<T> implements IList<T> {
      * Default constructor. Initialized real size with
      * value 10.
      */
-    ArrList() {
+    public ArrList() {
         this(10);
     }
 

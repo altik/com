@@ -1,6 +1,6 @@
-package com.funky.line.mypatterns.ducks;
+package com.funky.line.mypatterns.strategy.ducks;
 
-import com.funky.line.mypatterns.logic.implement.FlyWithWings;
+import com.funky.line.mypatterns.strategy.implement.FlyWithWings;
 
 /**
  * Created by Rudniev Oleksandr on 23.11.2016.
