@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Rudniev Oleksandr on 05.12.2016.
  */
-public class SubjectImpl implements ISubject {
+class SubjectImpl implements ISubject {
 
     private List<IObserver> observerList = new ArrayList<>();
     private int state;

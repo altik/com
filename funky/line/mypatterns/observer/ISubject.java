@@ -3,7 +3,7 @@ package com.funky.line.mypatterns.observer;
 /**
  * Created by Rudniev Oleksandr on 29.11.2016.
  */
-public interface ISubject {
+interface ISubject {
 
     void register(IObserver iObserver);
 
