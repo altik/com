@@ -40,7 +40,7 @@ class ObserverImpl implements IObserver {
 
     public int hashCode() {
         int result = subject != null ? subject.hashCode() : 0;
-        result = 31 * result + (observerName != null ? observerName.hashCode() : 0);
+        result = 22 * result + (observerName != null ? observerName.hashCode() : 0);
         return result;
     }
 
