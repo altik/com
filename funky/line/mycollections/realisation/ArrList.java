@@ -1,11 +1,13 @@
 package com.funky.line.mycollections.realisation;
 
+import com.funky.line.mycollections.iterator.IMyIterable;
+import com.funky.line.mycollections.iterator.IMyIterator;
 import com.funky.line.mycollections.myinterface.IList;
 
 /**
  * Created by Rudniev Oleksandr on 10.11.2016.
  */
-public class ArrList<T> implements IList<T> {
+public class ArrList<T> implements IList<T>, IMyIterable<T> {
 
     /**
      * Array for containing myArr
@@ -192,5 +194,29 @@ public class ArrList<T> implements IList<T> {
             result = true;
         }
         return result;
+    }
+
+    @Override
+    public IMyIterator<T> myIterator() {
+        return new Iter();
+    }
+
+    private class Iter implements IMyIterator {
+        private int currIndx = 0;
+
+        @Override
+        public boolean hasNext() {
+            return currIndx < position && myArr[currIndx++] != null;
+        }
+
+        @Override
+        public Object next() {
+            return myArr[currIndx++];
+        }
+
+        @Override
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
     }
 }
