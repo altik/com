@@ -1,5 +1,6 @@
 package com.funky.line.mycollections.realisation;
 
+import com.funky.line.mycollections.iterator.IMyIterator;
 import com.funky.line.mycollections.myinterface.IList;
 
 /**
@@ -135,6 +136,11 @@ public class LinkList<T> implements IList {
     @Override
     public boolean set(int o, Object value) {
         return false;
+    }
+
+    @Override
+    public IMyIterator myIterator() {
+        return null;
     }
 
 
